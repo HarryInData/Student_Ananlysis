@@ -6,7 +6,7 @@ subjects=[
     "A mumbai Cat",
     "A groups of monkey ",
     "Prime Minister Modi",
-    "Auto Rikhaw Driver From Delhi"
+    "Auto Rikhaw Driver From new  Delhi"
 ]
 
 actions  =[
