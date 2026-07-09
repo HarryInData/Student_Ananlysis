@@ -14,7 +14,7 @@ actions  =[
     "cancels",
     "eats",
     "declares war on ",
-    "order AK47 ",
+    "order AK47 ",#####
     "celebraties"
 ]
 place_or_things=[
