@@ -6,4 +6,4 @@ else:
         if (a%2==0):
             print("it is not a prime number ")
         else :
-            print("It is a prime number")
+            print(" prime number")
