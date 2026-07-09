@@ -6,13 +6,12 @@ from streamlit_mic_recorder import speech_to_text
 from gtts import gTTS
 from io import BytesIO
 
-# ============== OPENROUTER CONFIG ==============
+
 
 OPENROUTER_API_KEY = "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"
 OPENROUTER_MODEL = "google/gemma-3-27b-it:free"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"  # chat completions endpoint [web:209][web:211]
 
-# ============== STREAMLIT PAGE CONFIG ==============
 
 st.set_page_config(
     page_title="Advanced AI Assistant",
@@ -21,7 +20,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ============== CSS ==============
+
 
 advanced_css = """
 <style>
@@ -98,7 +97,6 @@ def detect_language_simple(text: str) -> str:
     ratio = devanagari_count / max(len(text), 1)
     return "Hindi" if ratio > 0.2 else "English"
 
-# ============== TTS WITH gTTS + st.audio ==============
 
 def text_to_speech(text: str, language: str = "en"):
     """
