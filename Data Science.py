@@ -10,7 +10,7 @@ subjects=[
 ]
 
 actions  =[
-    "lunches",
+    "lunches",rr
     "cancels",
     "eats",
     "declares war on ",
